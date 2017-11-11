@@ -1,0 +1,47 @@
+
+body {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 0 auto;
+    width: 100%;
+    line-height: 20px;
+    color: #555555;
+    background-color: white;
+}
+header {
+	display: flex;
+	justify-content: space-between;
+    width: 100%;
+    border-bottom: solid 4px #49833F;
+    box-sizing: border-box;
+	align-items: center;
+	padding: 18px 0px 18px 0px;
+	margin-bottom: 25px;
+}
+.index {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: flex-start;
+
+}
+aside {
+	display: flex;
+	flex-flow: column;
+	margin: 0 auto;
+	width: 90%;
+	min-width: 280px;
+}
+video {
+	width: 100%;
+	height: auto;
+	background-color: grey;
+	bottom: padding
+}
+
+/* ARTICLE PAGE */
+.article-full {
+	width: 90%;
+	max-width: 540px;
+	margin: 0 auto;
+}

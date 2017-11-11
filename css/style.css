@@ -1,0 +1,147 @@
+/*
+green: 			#49833F
+light green: 	#6BBC5D
+blue:			#104466
+light blue: 	#248ACD
+dark grey:		#555555
+light grey:		#979797
+orange: 		#C96700
+*/
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab|Roboto:200,400,500,700");
+body {
+  font-size: 62.5%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  margin: 0 auto;
+  width: 100%;
+  line-height: 20px;
+  color: #555555;
+  background-color: white; }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: solid 4px #49833F;
+  box-sizing: border-box;
+  align-items: center;
+  padding: 18px 0px 18px 0px;
+  margin-bottom: 25px; }
+
+.index {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start; }
+
+aside {
+  display: flex;
+  flex-flow: column;
+  margin: 0 auto;
+  width: 90%;
+  min-width: 280px; }
+
+video {
+  width: 100%;
+  height: auto;
+  background-color: grey;
+  bottom: padding; }
+
+/* ARTICLE PAGE */
+.article-full {
+  width: 90%;
+  max-width: 540px;
+  margin: 0 auto; }
+
+h1 {
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  min-width: 60px;
+  width: 60px; }
+
+h2 {
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 15px 0px;
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.6em;
+  font-weight: 400;
+  color: #678844;
+  line-height: 36px; }
+
+h3 {
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.4em;
+  font-weight: 400;
+  color: #678844; }
+
+p {
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  font-size: 1.3em;
+  margin-bottom: 20px; }
+
+ul {
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  list-style-type: none; }
+
+li {
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  font-size: 1.3em;
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: #49833F; }
+
+img {
+  width: 100%; }
+
+@media screen and (min-width: 450px) {
+  /* HOME PAGE */
+  .recent-articles {
+    max-width: 600px; } }
+@media screen and (min-width: 767px) {
+  /* HOME PAGE */
+  .desktop-h1 {
+    display: none; }
+
+  .desktop-nav {
+    display: block; }
+
+  .desktop-nav ul {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between; }
+
+  #menuToggle span {
+    display: none; }
+
+  .mobile-nav ul {
+    display: none; }
+
+  .mobile-h1 {
+    display: none; }
+
+  .recent-articles {
+    width: 49%; }
+
+  aside {
+    width: 36%;
+    max-width: 280px; } }
+@media screen and (min-width: 1000px) {
+  /* HEADER AND NAV */
+  .desktop-h1 {
+    display: block;
+    width: 168px; }
+
+  .mobile-h1 {
+    display: none; }
+
+  /* ARTICLE PAGE */
+  .article-full {
+    max-width: 680px; } }
+
+/*# sourceMappingURL=style.css.map */

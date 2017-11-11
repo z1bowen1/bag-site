@@ -1,0 +1,67 @@
+/*
+green: 			#49833F
+light green: 	#6BBC5D
+blue:			#104466
+light blue: 	#248ACD
+dark grey:		#555555
+light grey:		#979797
+orange: 		#C96700
+*/
+@import 'blocks';
+@import 'modifiers';
+@import 'elements';
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab|Roboto:200,400,500,700');
+
+@media screen and (min-width: 450px) {
+
+	/* HOME PAGE */
+	.recent-articles {
+		max-width: 600px;
+	}
+}
+@media screen and (min-width: 767px) {
+	/* HOME PAGE */
+	.desktop-h1 {
+		display: none;
+	}
+	.desktop-nav {
+		display: block;
+	}
+	.desktop-nav ul {
+		display: flex;
+		flex-flow: row;
+		justify-content: space-between;
+	}
+	#menuToggle span {
+		display: none;
+	}
+	.mobile-nav ul {
+		display: none;
+	}
+	.mobile-h1 {
+		display: none;
+	}
+	.recent-articles {
+		width: 49%;
+	}
+	aside {
+		width: 36%;
+		max-width: 280px;
+	}
+}
+@media screen and (min-width: 1000px) {
+
+		/* HEADER AND NAV */
+
+			.desktop-h1 {
+			display: block;
+			width: 168px;
+		}
+	.mobile-h1 {
+		display: none;
+	}
+		/* ARTICLE PAGE */
+		.article-full {
+			max-width: 680px;
+		}
+}
